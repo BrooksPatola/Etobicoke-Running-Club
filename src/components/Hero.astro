@@ -1,0 +1,13 @@
+---
+import { Image } from 'astro:assets';
+import HeroImage from './Images/HeroImage.png';
+---
+
+
+
+<div class="relative h-screen flex justify-center items-start">
+    <Image class="opacity-80" src={HeroImage} alt="Hero image runner at sunrise."/>
+    <div class="absolute lg:top-1/4 text-yellow-500 text-2xl md:text-4xl xl:text-6xl font-bold shadow-lg shadow-cyan-500/50 mt-8 opacity-90">
+        Etobicoke Running Club
+    </div>
+</div>
